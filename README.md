@@ -1,5 +1,6 @@
 
 ### 目录结构：
+
 |
 |- public
 |   |- mock
@@ -14,7 +15,7 @@
     |- containers: 存放容器型React组件
     |       |- App
     |           |- index.js: App React组件
-    |           |- style。css
+    |           |- style.css
     |       |- Home
     |           |- index.js: Home React组件
     |           |- style.css
@@ -22,6 +23,15 @@
     |
     |- redux: duck模式
     |       |- module: redux模块
+    |           |- entities: 领域状态模块
+    |                   |- products.js: 商品
+    |                   |- orders.js: 订单信息
+    |                   |- shops.js: 店铺信息
+    |                   |- comments.js: 评论信息
+    |           |- app.js: 通用基础状态
+    |           |- detail.js: UI状态
+    |           |- home.js
+    |           |- index.js :聚合UI状态和领域状态
     |       |- middleware 
     |
     |- utils: 常用工具类
