@@ -9,7 +9,7 @@
     "clone-deep": "^4.0.1",
     "merge-deep": "^3.0.2",
     "mkdirp": "^1.0.4",
-    "node-forge": "^0.10.0",
+    "node-forge": "^1.0.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-redux": "^7.2.1",
